@@ -52,9 +52,10 @@ const Header = () => {
             <Image
               className='rounded-full'
               src='/img/logo.jpg'
-              alt='Foto logo'
-              width={55}
-              height={55}
+              alt='foto logo'
+              style={{ width: "80px", height: "60px" }}
+              width={80} // Change this to the desired width
+              height={60} // Change this to the desired height
             />
           </Link>
           <nav className='md:ml-auto flex flex-wrap items-center text-base justify-center text-white'>
