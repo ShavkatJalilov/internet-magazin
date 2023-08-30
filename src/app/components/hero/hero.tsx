@@ -28,14 +28,14 @@ const Hero = () => {
               <div className='grid grid-cols-2 lg:grid-cols-4 gap-3 mt-3'>
                 <div className='col-span-1'>
                   <Image
-                    className='w-full border-radius-lg shadow mt-0 lg:mt-7 max-w-xs transition duration-300 ease-in-out hover:scale-110'
+                    className='w-full border-radius-lg shadow mt-0 lg:mt-7  rounded-3xl  transition duration-300 ease-in-out hover:scale-110'
                     width='530'
                     height='530'
                     src='/img/moshinKatasi.jpg'
                     alt='flower-1'
                   />
                   <Image
-                    className='w-full border-radius-lg shadow mt-0 lg:mt-7 max-w-xs transition duration-300 ease-in-out hover:scale-110'
+                    className='w-full  rounded-3xl border-radius-lg shadow mt-0 lg:mt-7  transition duration-300 ease-in-out hover:scale-110'
                     width='530'
                     height='530'
                     src='/img/20litrlik.jpg'
@@ -46,16 +46,16 @@ const Hero = () => {
                   <Image
                     width='530'
                     height='530'
-                    className='w-full border-radius-lg shadow max-w-xs transition duration-300 ease-in-out hover:scale-110'
-                    src='/img/labo.jpg'
+                    className='w-full rounded-3xl border-radius-lg shadow   transition duration-300 ease-in-out hover:scale-110'
+                    src='/img/qizilLogo.jpg '
                     alt='flower-2'
                     loading='lazy'
                   />
                   <Image
                     width='530'
                     height='530'
-                    className='w-full border-radius-lg shadow mt-4 max-w-xs transition duration-300 ease-in-out hover:scale-110'
-                    src='/img/qizilLogo.jpg'
+                    className='w-full  rounded-3xl border-radius-lg shadow mt-4  transition duration-300 ease-in-out hover:scale-110'
+                    src='/img/labo.jpg'
                     alt='flower-3'
                     loading='lazy'
                   />
@@ -64,7 +64,7 @@ const Hero = () => {
                   <Image
                     width='530'
                     height='530'
-                    className='w-full border-radius-lg shadow mt-0 lg:mt-5 max-w-xs transition duration-300 ease-in-out hover:scale-110'
+                    className='w-full border-radius-lg  rounded-3xl shadow mt-0 lg:mt-5  transition duration-300 ease-in-out hover:scale-110'
                     src='/img/stakancada_suv.jpg'
                     alt='flower-4'
                     loading='lazy'
@@ -72,7 +72,7 @@ const Hero = () => {
                   <Image
                     width='530'
                     height='530'
-                    className='w-full border-radius-lg shadow mt-4  max-w-xs transition duration-300 ease-in-out hover:scale-110 '
+                    className='w-full border-radius-lg shadow mt-4   rounded-3xl  transition duration-300 ease-in-out hover:scale-110'
                     src='/img/20ozi.jpg'
                     alt='flower-5'
                     loading='lazy'
