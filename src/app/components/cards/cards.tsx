@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const Cards = () => {
   return (
@@ -6,7 +6,9 @@ const Cards = () => {
       <div className='grid-cols-1 sm:grid md:grid-cols-3 '>
         <div className='mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0'>
           <a href='#!'>
-            <img
+            <Image
+              width={500}
+              height={500}
               className='rounded-t-lg'
               src='https://tecdn.b-cdn.net/img/new/standard/city/041.webp'
               alt='Hollywood Sign on The Hill'
@@ -25,7 +27,9 @@ const Cards = () => {
         </div>
         <div className='mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0'>
           <a href='#!'>
-            <img
+            <Image
+              width={500}
+              height={500}
               className='rounded-t-lg'
               src='https://tecdn.b-cdn.net/img/new/standard/city/042.webp'
               alt='Palm Springs Road'
@@ -44,7 +48,9 @@ const Cards = () => {
         </div>
         <div className='mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0'>
           <a href='#!'>
-            <img
+            <Image
+              width={500}
+              height={500}
               className='rounded-t-lg'
               src='https://tecdn.b-cdn.net/img/new/standard/city/044.webp'
               alt='Skyscrapers'

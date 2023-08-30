@@ -74,8 +74,8 @@ const Footer = () => {
                     x1='46.136'
                     id='a'
                   >
-                    <stop offset='0' stop-color='#37aee2' />
-                    <stop offset='1' stop-color='#1e96c8' />
+                    <stop offset='0' stopColor='#37aee2' />
+                    <stop offset='1' stopColor='#1e96c8' />
                   </linearGradient>
                 </defs>
                 <g transform='scale(3.4682)'>
