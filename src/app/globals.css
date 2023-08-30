@@ -1,7 +1,6 @@
-/* GENERAL */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
   height: 100%;
@@ -43,7 +42,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1366px;
+  max-width: 1360px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 10px;
