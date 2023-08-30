@@ -5,7 +5,7 @@ const History = () => {
     <>
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
-          <h2 className='text-3xl font-medium title-font text-gray-900 mb-12 text-center'>
+          <h2 className='text-3xl font-medium title-font text-blue-900 mb-12 text-center'>
             История становления.
           </h2>
           <div className='flex flex-wrap '>

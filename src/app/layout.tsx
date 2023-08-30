@@ -2,6 +2,7 @@ import "./globals.css";
 import { Noto_Sans_Medefaidrin } from "next/font/google";
 import Header from "./layout/Header/header";
 import Footer from "./layout/footer/footer";
+import FooterHead from "./layout/foterHead/footerHead";
 const inter = Noto_Sans_Medefaidrin({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
@@ -19,6 +20,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <Header />
           {children}
+          <FooterHead />
           <Footer />
         </body>
       </html>
