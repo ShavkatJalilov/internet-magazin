@@ -32,14 +32,14 @@ const Hero = () => {
                     width='530'
                     height='530'
                     src='/img/moshinKatasi.jpg'
-                    alt='flower-1'
+                    alt=' foto-1'
                   />
                   <Image
                     className='w-full  rounded-3xl border-radius-lg shadow mt-0 lg:mt-7  transition duration-300 ease-in-out hover:scale-110'
                     width='530'
                     height='530'
                     src='/img/20litrlik.jpg'
-                    alt='flower-1'
+                    alt='foto-1'
                   />
                 </div>
                 <div className='col-span-1 lg:col-span-2'>
@@ -47,8 +47,8 @@ const Hero = () => {
                     width='530'
                     height='530'
                     className='w-full rounded-3xl border-radius-lg shadow   transition duration-300 ease-in-out hover:scale-110'
-                    src='/img/qizilLogo.jpg '
-                    alt='flower-2'
+                    src='/img/qizilLogo.jpg'
+                    alt='foto-2'
                     loading='lazy'
                   />
                   <Image
@@ -56,7 +56,7 @@ const Hero = () => {
                     height='530'
                     className='w-full  rounded-3xl border-radius-lg shadow mt-4  transition duration-300 ease-in-out hover:scale-110'
                     src='/img/labo.jpg'
-                    alt='flower-3'
+                    alt=' foto-3'
                     loading='lazy'
                   />
                 </div>
@@ -66,7 +66,7 @@ const Hero = () => {
                     height='530'
                     className='w-full border-radius-lg  rounded-3xl shadow mt-0 lg:mt-5  transition duration-300 ease-in-out hover:scale-110'
                     src='/img/miniS.jpg'
-                    alt='flower-4'
+                    alt=' foto-4'
                     loading='lazy'
                   />
                   <Image
@@ -74,7 +74,7 @@ const Hero = () => {
                     height='530'
                     className='w-full border-radius-lg shadow mt-4   rounded-3xl  transition duration-300 ease-in-out hover:scale-110'
                     src='/img/20ozi.jpg'
-                    alt='flower-5'
+                    alt=' foto-5'
                     loading='lazy'
                   />
                 </div>
