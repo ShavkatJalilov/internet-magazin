@@ -15,7 +15,7 @@ const FooterHead = () => {
             </div>
             <div className='flex flex-col'>
               <Link href='tel:+998906989999'>+99890 698 99 99</Link>
-              <span>производитeль: OOO "MEGA KORP"</span>
+              <span>производитeль: OOO MEGA KORP</span>
             </div>
           </div>
         </div>
