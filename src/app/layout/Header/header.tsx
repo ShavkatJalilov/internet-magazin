@@ -1,50 +1,17 @@
-import { Stick } from "next/font/google";
+"use client";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-
+import { usePathname } from "next/navigation";
 const Header = () => {
+  const router = useRouter();
+  const pathname = usePathname();
+  console.log(router);
+
   return (
     <>
-      {/* <header
-        style={{ backgroundColor: " #79C3E9" }}
-        className='navbar pt-5 pb-5  '
-      >
-        <div className='container'>
-          <div className=' flex justify-between'>
-            <div className='flex justify-between'>
-              <span className='tashkentBefor'>
-                <Link className='' href='/'>
-                  logo
-                </Link>
-              </span>
-            </div>
-            <nav className='navbar text-white'>
-              <ul className='list-none flex justify-center align-top'>
-                <li className=' mr-5'>
-                  <Link className='navbar__href  hover:text-sky-700' href='/'>
-                    About
-                  </Link>
-                </li>
-                <li className='mr-5'>
-                  <Link className='navbar__href  hover:text-sky-700' href='/'>
-                    product
-                  </Link>
-                </li>
-                <li className=''>
-                  <Link
-                    className='navbar__href  hover:text-sky-700 transition-opacity  '
-                    href='/'
-                  >
-                    contact
-                  </Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </header> */}
       <header className='text-gray-600 body-font bg-blue-400 sticky top-0   w-full z-50 bg-opacity-90 shadow-md'>
-        <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
+        <div className='container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center'>
           <Link
             className='flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'
             href='/'
@@ -53,15 +20,23 @@ const Header = () => {
               className='rounded-full'
               src='/img/logo.jpg'
               alt='foto logo'
-              style={{ width: "80px", height: "60px" }}
-              width={80} // Change this to the desired width
-              height={60} // Change this to the desired height
+              style={{ width: "auto", height: "auto" }}
+              width={76}
+              height={56}
             />
           </Link>
           <nav className='md:ml-auto flex flex-wrap items-center text-base justify-center text-white'>
-            <Link className='mr-5 hover:text-blue-700' href='/'>
+            <Link
+              className={
+                pathname == "/pages/About"
+                  ? "active"
+                  : "mr-5 hover:text-blue-700"
+              }
+              href='/pages/About'
+            >
               О Компании
             </Link>
+
             <Link className='mr-5 hover:text-blue-700' href='/'>
               Продукция
             </Link>

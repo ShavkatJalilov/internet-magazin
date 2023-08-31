@@ -1,6 +1,4 @@
 import Image from "next/image";
-import React from "react";
-
 const Hero = () => {
   return (
     <>
@@ -50,16 +48,18 @@ const Hero = () => {
                     src='/img/qizilLogo.jpg'
                     alt='foto-2'
                     loading='lazy'
+                    priority={false}
                   />
                   <Image
-                    width='530'
-                    height='530'
+                    width='430'
+                    height='430'
                     className='w-full  rounded-3xl border-radius-lg shadow mt-4  transition duration-300 ease-in-out hover:scale-110'
                     src='/img/labo.jpg'
                     alt=' foto-3'
                     loading='lazy'
                   />
                 </div>
+                {/* <div className='col-span-1 lg:col-span-2'></div> */}
                 <div className='col-span-1'>
                   <Image
                     width='530'

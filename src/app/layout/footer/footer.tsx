@@ -10,7 +10,6 @@ const Footer = () => {
           <Link
             className='flex title-font font-medium items-center text-white mb-4 md:mb-0'
             href='/'
-            target='_blank'
           >
             <Image
               className='rounded-full'
@@ -22,7 +21,7 @@ const Footer = () => {
           </Link>
           <p className='text-sm text-white  sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4'>
             dua 2023
-            <span>Август</span>
+            <span> Август</span>
           </p>
           <span className='inline-flex sm:ml-auto sm:mt-0   justify-center align-top sm:justify-start  mt-7 '>
             <Link

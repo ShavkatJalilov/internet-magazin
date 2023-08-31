@@ -1,7 +1,7 @@
 const Fakts = () => {
   return (
     <>
-      <section>
+      <section className='pt-8 pb-8'>
         <div className='container'>
           <h2 className='text-3xl font-medium title-font text-blue-900 mb-12 text-center'>
             видео Факты

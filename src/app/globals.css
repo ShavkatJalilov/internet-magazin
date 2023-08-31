@@ -53,3 +53,8 @@ body {
 .site-main {
   flex-grow: 1;
 }
+.active {
+  margin-right: 1.25rem;
+  text-decoration: solid;
+  color: red;
+}

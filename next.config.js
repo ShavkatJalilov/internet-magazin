@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const { i18n } = require("./next-i18next.config");
 
-module.exports = {
+const nextConfig = {
   images: {
     domains: ["tecdn.b-cdn.net"],
   },
+  i18n,
+  /* config options here */
 };
+
+module.exports = nextConfig;
