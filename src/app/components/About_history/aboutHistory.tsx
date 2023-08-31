@@ -18,8 +18,8 @@ const AboutHistory = () => {
             </p>
           </div>
           <div className='flex justify-center flex-wrap md:-m-2 -m-1'>
-            <div className='flex flex-wrap w-1/2'>
-              <div className='md:p-2 p-1 w-1/2'>
+            <div className='flex flex-wrap w-1/2 '>
+              <div className='md:p-2 p-1 w-1/2 hidden md:block'>
                 <Image
                   alt='gallery'
                   className='  object-cover object-center block rounded-3xl  transition duration-300 ease-in-out hover:scale-110'
@@ -28,7 +28,7 @@ const AboutHistory = () => {
                   height={300}
                 />
               </div>
-              <div className='md:p-2 p-1 w-1/2 '>
+              <div className='md:p-2 p-1 w-1/2  hidden md:block'>
                 <Image
                   alt='gallery'
                   className=' h-80 object-cover object-center block rounded-3xl  transition duration-300 ease-in-out hover:scale-110'
@@ -40,7 +40,7 @@ const AboutHistory = () => {
               <div className='md:p-2 p-1 mr-auto ml-auto flex'>
                 <Image
                   alt='gallery'
-                  className=' m-2 object-cover object-center block rounded-3xl  transition duration-300 ease-in-out hover:scale-110 '
+                  className=' hidden lg:block m-2 object-cover object-center   rounded-3xl  transition duration-300 ease-in-out hover:scale-110 '
                   src='/img/termz.jpg'
                   width={241}
                   height={301}
@@ -86,6 +86,20 @@ const AboutHistory = () => {
           </div>
         </div>
       </section>
+      <div className=' p-10 '>
+        <h2 className='text-3xl font-medium title-font text-blue-900 mb-12 text-center'>
+          видео Факты
+        </h2>
+        <video
+          className='mr-auto ml-auto rounded-lg   w-1/2 '
+          width='750'
+          height='500'
+          controls
+        >
+          <source src='/' type='video/mp4' />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </>
   );
 };

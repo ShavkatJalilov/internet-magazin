@@ -3,7 +3,7 @@ const AboutHero = () => {
     <>
       {" "}
       <section
-        className=' pt-28 pb-64 shadow-2xl '
+        className=' pt-28 pb-64 shadow-2xl  relative'
         style={{
           backgroundImage: "url('/img/duad.jpg')",
           backgroundRepeat: "no-repeat",
