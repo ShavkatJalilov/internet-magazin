@@ -50,10 +50,10 @@ const Header = () => {
                     : " hover:text-blue-700 'p-2 outline-0 rounded-lg bg-transparent text-white "
                 }
               >
-                <option className='bg-blue-500' value='/pages/Contact'>
+                <option className='bg-blue-500' value='/pages/Contact_water'>
                   Продукция
                 </option>
-                <option className='bg-blue-500' value='/pages/Contact'>
+                <option className='bg-blue-500' value='/pages/Contact_water'>
                   19.5л воды
                 </option>
                 <option className='bg-blue-500' value='/pages/Contacts'>
