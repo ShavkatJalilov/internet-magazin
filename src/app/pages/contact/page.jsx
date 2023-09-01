@@ -1,4 +1,4 @@
-import ContactGrid from "../components/contactGrid/contactGrid";
+import ContactGrid from "../../components/contactGrid/contactGrid";
 
 const Page = () => {
   return (
