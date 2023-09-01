@@ -56,5 +56,6 @@ body {
 .active {
   margin-right: 1.25rem;
   text-decoration: solid;
-  color: red;
+  color: #f80202;
+  background: transparent;
 }

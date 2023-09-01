@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const ContactGrid = () => {
+const ContactMiniGrid = () => {
   return (
     <>
       <div className='container   p-5  '>
@@ -15,7 +15,7 @@ const ContactGrid = () => {
                 width={400}
                 height={350}
                 className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/20ozi.jpg'
+                src='/img/miniS.jpg'
                 alt=''
               />
             </div>
@@ -102,4 +102,4 @@ const ContactGrid = () => {
   );
 };
 
-export default ContactGrid;
+export default ContactMiniGrid;

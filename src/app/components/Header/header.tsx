@@ -1,9 +1,17 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
+
 const Header = () => {
   const pathname = usePathname();
+  const router = useRouter();
+
+  function handlSelect(e: string) {
+    console.log(e);
+    router.push(e);
+  }
 
   return (
     <>
@@ -33,18 +41,35 @@ const Header = () => {
             >
               О Компании
             </Link>
+            <div className={pathname == "/pages/Contact" ? "" : "mr-5"}>
+              <select
+                onChange={(e) => handlSelect(e.target.value)}
+                className={
+                  pathname == "/pages/Contact"
+                    ? "active"
+                    : " hover:text-blue-700 'p-2 outline-0 rounded-lg bg-transparent text-white "
+                }
+              >
+                <option className='bg-blue-500' value='/pages/Contact'>
+                  Продукция
+                </option>
+                <option className='bg-blue-500' value='/pages/Contact'>
+                  19.5л воды
+                </option>
+                <option className='bg-blue-500' value='/pages/Contacts'>
+                  200мл воды
+                </option>
+              </select>
+            </div>
 
             <Link
               className={
-                pathname == "/pages/Contact"
+                pathname == "/pages/reklama"
                   ? "active"
                   : "mr-5 hover:text-blue-700"
               }
-              href='/pages/Contact'
+              href='/pages/reklama'
             >
-              Продукция
-            </Link>
-            <Link className='mr-5 hover:text-blue-700' href='/'>
               Рекламные материалы
             </Link>
           </nav>

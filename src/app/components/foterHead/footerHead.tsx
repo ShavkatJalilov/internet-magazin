@@ -9,7 +9,7 @@ const FooterHead = () => {
           <div className='flex justify-between    align-middle'>
             <div className='w-64'>
               <address>
-                адрес Ташкент ш. Мирзо Улугбекский район, квартал Олмачи, улица
+                адрес: Ташкент ш. Мирзо Улугбекский район, квартал Олмачи, улица
                 Тортарика, дом 3
               </address>
             </div>
