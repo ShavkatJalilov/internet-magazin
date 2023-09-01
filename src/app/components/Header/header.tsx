@@ -36,11 +36,11 @@ const Header = () => {
 
             <Link
               className={
-                pathname == "/pages/contact"
+                pathname == "/pages/Contact"
                   ? "active"
                   : "mr-5 hover:text-blue-700"
               }
-              href='/pages/contact'
+              href='/pages/Contact'
             >
               Продукция
             </Link>
