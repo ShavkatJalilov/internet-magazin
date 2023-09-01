@@ -1,16 +1,13 @@
 "use client";
-import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 const Header = () => {
-  const router = useRouter();
   const pathname = usePathname();
-  console.log(router);
 
   return (
     <>
-      <header className='text-gray-600 body-font bg-blue-400 sticky top-0   w-full z-50 bg-opacity-90 shadow-md'>
+      <header className='text-gray-600 body-font  bg-gradient-to-r from-cyan-500 to-blue-500 sticky top-0   w-full z-50 bg-opacity-90 shadow-md'>
         <div className='container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center'>
           <Link
             className='flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'
@@ -37,7 +34,12 @@ const Header = () => {
               О Компании
             </Link>
 
-            <Link className='mr-5 hover:text-blue-700' href='/'>
+            <Link
+              className={
+                pathname == "/contact" ? "active" : "mr-5 hover:text-blue-700"
+              }
+              href='/contact'
+            >
               Продукция
             </Link>
             <Link className='mr-5 hover:text-blue-700' href='/'>

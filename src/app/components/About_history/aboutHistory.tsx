@@ -73,19 +73,11 @@ const AboutHistory = () => {
                   height={202}
                 />
               </div>
-              {/* <div className='md:p-2 p-1 w-1/2'>
-                <Image
-                  alt='gallery'
-                  className=' object-cover object-center block'
-                  src='/img/labo.jpg'
-                  width={503}
-                  height={303}
-                />
-              </div> */}
             </div>
           </div>
         </div>
       </section>
+
       <div className=' p-10 '>
         <h2 className='text-3xl font-medium title-font text-blue-900 mb-12 text-center'>
           видео Факты

@@ -1,8 +1,8 @@
 import "./globals.css";
 import { Noto_Sans_Medefaidrin } from "next/font/google";
-import Header from "./layout/Header/header";
-import Footer from "./layout/footer/footer";
-import FooterHead from "./layout/foterHead/footerHead";
+import Header from "./components/Header/header";
+import Footer from "./components/footer/footer";
+import FooterHead from "./components/foterHead/footerHead";
 const inter = Noto_Sans_Medefaidrin({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
