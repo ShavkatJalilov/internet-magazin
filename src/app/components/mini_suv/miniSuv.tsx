@@ -14,7 +14,7 @@ const ContactMiniGrid = () => {
               <Image
                 width={400}
                 height={350}
-                className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
+                className='h-full max-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
                 src='/img/miniS.jpg'
                 alt=''
               />
@@ -53,7 +53,7 @@ const ContactMiniGrid = () => {
                 width={400}
                 height={350}
                 className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/logo3.jpg'
+                src='/img/suvIcayabdiQiz.jpg'
                 alt=''
               />
             </div>
@@ -82,7 +82,7 @@ const ContactMiniGrid = () => {
                 width={400}
                 height={350}
                 className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/stakanSuv.jpg'
+                src='/img/vizitka.jpg'
                 alt=''
               />
             </div>
@@ -91,7 +91,7 @@ const ContactMiniGrid = () => {
                 width={400}
                 height={350}
                 className='h-full max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/lakleyka.jpg'
+                src='/img/labo.jpg'
                 alt=''
               />
             </div>

@@ -13,10 +13,10 @@ const Footer = () => {
           >
             <Image
               className='rounded-full'
-              src='/img/logo.jpg'
+              src='/img/logoGs.jpg'
               alt='Foto logo'
-              width={55}
-              height={55}
+              width={95}
+              height={70}
             />
           </Link>
           <p className='text-sm text-white  sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4'>

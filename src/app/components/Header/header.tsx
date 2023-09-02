@@ -9,7 +9,6 @@ const Header = () => {
   const router = useRouter();
 
   function handlSelect(e: string) {
-    console.log(e);
     router.push(e);
   }
 
@@ -22,11 +21,11 @@ const Header = () => {
             href='/'
           >
             <Image
-              className='rounded-full'
-              src='/img/logo.jpg'
+              className='rounded-xl'
+              src='/img/logoGs.jpg'
               alt='foto logo'
-              style={{ width: "auto", height: "auto" }}
-              width={76}
+              // style={{ width: "auto", height: "auto" }}
+              width={80}
               height={56}
             />
           </Link>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const ContactGrid = () => {
+const Reklama = () => {
   return (
     <>
       <div className='container   p-5  '>
@@ -14,8 +14,8 @@ const ContactGrid = () => {
               <Image
                 width={400}
                 height={350}
-                className='h-full max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/20litrlik.jpg'
+                className='h-full max-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
+                src='/img/miniS.jpg'
                 alt=''
               />
             </div>
@@ -32,7 +32,7 @@ const ContactGrid = () => {
               <Image
                 width={400}
                 height={350}
-                className='h-full max-w-full rounded-xl  drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
+                className='h-auto max-w-full rounded-xl  drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
                 src='/img/duad.jpg'
                 alt=''
               />
@@ -49,30 +49,30 @@ const ContactGrid = () => {
               />
             </div>
             <div>
-              {/* <Image
+              <Image
                 width={400}
                 height={350}
                 className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/logo3.jpg'
+                src='/img/suvIcayabdiQiz.jpg'
                 alt=''
-              /> */}
+              />
             </div>
             <div>
               <Image
                 width={400}
                 height={350}
                 className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/sumkaca1.jpg'
+                src='/img/bg-daryo.png'
                 alt=''
               />
             </div>
           </div>
-          <div className='grid gap-2 pt-7'>
+          <div className='grid gap-2'>
             <div>
               <Image
                 width={400}
                 height={350}
-                className='h-auto  max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
+                className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
                 src='/img/soat.jpg'
                 alt=''
               />
@@ -81,8 +81,8 @@ const ContactGrid = () => {
               <Image
                 width={400}
                 height={350}
-                className='h-full max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/chashka.jpg'
+                className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
+                src='/img/vizitka.jpg'
                 alt=''
               />
             </div>
@@ -91,7 +91,7 @@ const ContactGrid = () => {
                 width={400}
                 height={350}
                 className='h-full max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/sumka.jpg '
+                src='/img/labo.jpg'
                 alt=''
               />
             </div>
@@ -102,4 +102,4 @@ const ContactGrid = () => {
   );
 };
 
-export default ContactGrid;
+export default Reklama;

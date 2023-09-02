@@ -1,9 +1,9 @@
-import ContactMiniGrid from "@/app/components/mini_suv/miniSuv";
+import Reklama from "@/app/components/Reklama/miniSuv";
 
 const Page = () => {
   return (
     <>
-      <ContactMiniGrid />
+      <Reklama />
     </>
   );
 };
