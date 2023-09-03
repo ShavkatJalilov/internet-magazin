@@ -14,22 +14,26 @@ const Header = () => {
 
   return (
     <>
-      <header className='text-gray-600 body-font  bg-gradient-to-r from-cyan-500 to-blue-500 sticky top-0   w-full z-50 bg-opacity-90 shadow-md'>
+      <header className='text-gray-600 body-font bg-opacity-20 sticky top-0   w-full z-50   shadow-md'>
         <div className='container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center'>
           <Link
             className='flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'
             href='/'
           >
             <Image
-              className='rounded-xl'
+              className='rounded-xl mr-3'
               src='/img/logoGs.jpg'
               alt='foto logo'
               // style={{ width: "auto", height: "auto" }}
-              width={80}
-              height={56}
+              width={110}
+              height={110}
             />
           </Link>
-          <nav className='md:ml-auto flex flex-wrap items-center text-base justify-center text-white'>
+          <Link className='text-teal-500' href='tel:+998906989999'>
+            +99890 698 99 99
+          </Link>
+
+          <nav className='md:ml-auto flex flex-wrap items-center text-base justify-center text-teal-500'>
             <Link
               className={
                 pathname == "/pages/About"
@@ -40,16 +44,32 @@ const Header = () => {
             >
               О Компании
             </Link>
-            <div className={pathname == "/pages/Contact" ? "" : "mr-5"}>
+            <div>
               <select
                 onChange={(e) => handlSelect(e.target.value)}
                 className={
-                  pathname == "/pages/Contact"
-                    ? "active"
-                    : " hover:text-blue-700 'p-2 outline-0 rounded-lg bg-transparent text-white "
+                  pathname == "/pages/Contact_water"
+                    ? "active outline-0 mr-0"
+                    : " hover:text-blue-700 'p-2 outline-0 rounded-lg bg-transparent mr-5 "
+                    ? pathname == "/pages/Contacts"
+                      ? "active outline-0  "
+                      : " hover:text-blue-700 'p-2 outline-0 rounded-lg bg-transparent   mr-5"
+                    : ""
                 }
               >
-                <option className='bg-blue-500' value='/pages/Contact_water'>
+                <option
+                  className='bg-blue-500'
+                  value='/pages/Contact_water'
+                  selected={
+                    pathname == "/pages/Contact_water"
+                      ? false
+                      : true
+                      ? pathname == "/pages/Contacts"
+                        ? false
+                        : true
+                      : true
+                  }
+                >
                   Продукция
                 </option>
                 <option className='bg-blue-500' value='/pages/Contact_water'>

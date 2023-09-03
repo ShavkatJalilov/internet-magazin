@@ -5,17 +5,27 @@ const Reklama = () => {
   return (
     <>
       <div className='container   p-5  '>
-        <h2 className='text-3xl mb-7 mt-5 text-center text-cyan-600 '>
+        <h2 className='text-3xl mb-4 mt-5 text-center text-cyan-600 '>
           наши продукты
         </h2>
+
         <div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
           <div className='grid gap-2 '>
             <div>
               <Image
                 width={400}
                 height={350}
-                className='h-full max-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
+                className='h-auto max-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
                 src='/img/miniS.jpg'
+                alt=''
+              />
+            </div>
+            <div>
+              <Image
+                width={400}
+                height={350}
+                className='h-full max-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
+                src='/img/sumkaca1.jpg'
                 alt=''
               />
             </div>
@@ -53,7 +63,7 @@ const Reklama = () => {
                 width={400}
                 height={350}
                 className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/suvIcayabdiQiz.jpg'
+                src='/img/sumka.jpg'
                 alt=''
               />
             </div>
@@ -62,12 +72,30 @@ const Reklama = () => {
                 width={400}
                 height={350}
                 className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/bg-daryo.png'
+                src='/img/stakan2.jpg'
+                alt=''
+              />
+            </div>
+            <div>
+              <Image
+                width={400}
+                height={350}
+                className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
+                src='/img/moshinKatasi.jpg'
                 alt=''
               />
             </div>
           </div>
           <div className='grid gap-2'>
+            <div>
+              <Image
+                width={400}
+                height={350}
+                className='h-auto max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
+                src='/img/chashka.jpg'
+                alt=''
+              />
+            </div>
             <div>
               <Image
                 width={400}
@@ -92,6 +120,15 @@ const Reklama = () => {
                 height={350}
                 className='h-full max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
                 src='/img/labo.jpg'
+                alt=''
+              />
+            </div>{" "}
+            <div>
+              <Image
+                width={400}
+                height={350}
+                className='h-full max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
+                src='/img/stakan1.jpg'
                 alt=''
               />
             </div>

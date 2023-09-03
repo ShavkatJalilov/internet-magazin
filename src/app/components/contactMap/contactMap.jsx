@@ -1,7 +1,11 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const ContactMap = () => {
+  const pathname = usePathname();
+  const router = useRouter();
   return (
     <>
       <section className='text-gray-600 body-font relative'>
@@ -48,7 +52,26 @@ const ContactMap = () => {
               размещение заказа
             </h2>
             <p className='leading-relaxed mb-5 text-gray-600'>
-              product haqida va narxi
+              цена товара:
+              <span
+                className={
+                  pathname == "/pages/Contact_water"
+                    ? "hidden"
+                    : "text-red-700 'p-2 outline-0 rounded-lg bg-transparent mr-5 "
+                }
+              >
+                {""}
+                BELGILANMAGAN сум
+              </span>{" "}
+              <span
+                className={
+                  pathname == "/pages/Contacts"
+                    ? "hidden"
+                    : "text-red-700 'p-2 outline-0 rounded-lg bg-transparent mr-5 "
+                }
+              >
+                15000 сум
+              </span>{" "}
             </p>
             <div className='relative mb-4'>
               <label htmlFor='name' className='leading-7 text-sm text-gray-600'>

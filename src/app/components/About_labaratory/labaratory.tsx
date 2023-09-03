@@ -26,13 +26,18 @@ const Labaratory = () => {
                     </svg>
                   </div>
                   <h2 className='text-gray-900 text-lg title-font font-medium'>
-                    Shooting Stars
+                    Лаборатория
                   </h2>
                 </div>
                 <div className='flex-grow'>
                   <p className='leading-relaxed text-base'>
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+                    После водоподготовительного процесса образец воды берут на
+                    анализ в лабораторию, где выявляется соотношение полезных
+                    минералов и других компонентов содержащихся в составе воды.
+                    После результата тестирования и подтверждения соответствия
+                    качества воды мировым стандартам начинается процесс
+                    смешивания пищевых концентратов для напитка согласно
+                    рецепту.
                   </p>
                 </div>
               </div>
@@ -55,13 +60,19 @@ const Labaratory = () => {
                     </svg>
                   </div>
                   <h2 className='text-gray-900 text-lg title-font font-medium'>
-                    The Catalyzer
+                    Водоподготовка
                   </h2>
                 </div>
                 <div className='flex-grow'>
                   <p className='leading-relaxed text-base'>
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+                    Все начинается с многоэтапного процесса фильтрации воды.
+                    Система фильтрации оборудования европейского производителя
+                    «Chriwa Wasseraufbereitungstechnik GmbH», Германия, который
+                    сегодня является лидером в сфере промышленного производства
+                    оборудования водоподготовки на мировом рынке. Весь процесс
+                    автоматизирован, а уровень качества и гигиенического
+                    исполнения отвечают международным стандартам и нормам
+                    безопасности.
                   </p>
                 </div>
               </div>
@@ -85,17 +96,37 @@ const Labaratory = () => {
                     </svg>
                   </div>
                   <h2 className='text-gray-900 text-lg title-font font-medium'>
-                    Neptune
+                    Рецепт
                   </h2>
                 </div>
                 <div className='flex-grow'>
                   <p className='leading-relaxed text-base'>
-                    Blue bottle crucifix vinyl post-ironic four dollar toast
-                    vegan taxidermy. Gastropub indxgo juice poutine.
+                    Процесс смешивания автоматизирован и контролируется
+                    компьютером, что гарантирует высокую точность дозировки и
+                    соответствия рецепту. Концентраты для безалкогольных
+                    напитков компании «Du`a» производятся в Германии, одним из
+                    передовых производителей специальных добавок для пищевой
+                    промышленности и производства напитков, компанией «WILD».
                   </p>
                 </div>
               </div>
             </div>
+          </div>
+          <div className='flex flex-wrap   justify-center  mt-10'>
+            <img
+              className='lg:mr-5'
+              src='/img/setiS.png'
+              alt=''
+              width={450}
+              height={350}
+            />
+            <img
+              className=' mt-5 lg:mt-0'
+              src='/img/sertif.jpg'
+              alt=''
+              width={450}
+              height={350}
+            />
           </div>
         </div>
       </section>

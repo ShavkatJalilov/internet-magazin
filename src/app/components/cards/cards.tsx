@@ -16,12 +16,15 @@ const Cards = () => {
           </a>
           <div className='p-6'>
             <h5 className='mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50'>
-              Card title
+              Концентраты
             </h5>
             <p className='mb-4 text-base text-neutral-600 dark:text-neutral-200'>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Концентраты для безалкогольных напитков компании «Duʼ̓a»
+              производятся в Германии, одним из передовых производителей
+              специальных добавок для пищевой промышленности и производства
+              напитков, компанией WILD Flavors. Более 85 лет компания WILD
+              Flavors обеспечивает мировой рынок натуральными ингредиентами
+              самого высокого качества.
             </p>
           </div>
         </div>
@@ -37,12 +40,14 @@ const Cards = () => {
           </a>
           <div className='p-6'>
             <h5 className='mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50'>
-              Card title
+              Оборудование
             </h5>
             <p className='mb-4 text-base text-neutral-600 dark:text-neutral-200'>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Техническое оснащение компании «Duʼ̓a» сегодня включают в себя
+              инжекционные машины «Husky» Канада, система водоподготовки
+              «Chriwa» Германия, линии розлива «Krones» Германия, линии розлива
+              «Comac» Италия, линии розлива «KHS» Германия и линии розлива
+              «SIPA» Италия.
             </p>
           </div>
         </div>
@@ -58,11 +63,14 @@ const Cards = () => {
           </a>
           <div className='p-6'>
             <h5 className='mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50'>
-              Card title
+              ПЭТ - преформы.
             </h5>
             <p className='mb-4 text-base text-neutral-600 dark:text-neutral-200'>
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
+              Успех использования ПЭТ преформ в качестве упаковки — прежде всего
+              в ее экономичности, т.е. малом расходе материала, необходимого для
+              упаковки товара. Рассматривая упаковочную отрасль в целом, можно
+              отметить, что наиболее емкими являются сегменты гофрокартонной
+              тары, упаковки из бумаги и картона, упаковки из полимерных пленок.
             </p>
           </div>
         </div>

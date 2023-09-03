@@ -7,14 +7,13 @@ const AboutHistory = () => {
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto flex flex-wrap'>
           <div className='flex w-full mb-20 flex-wrap'>
-            <h1 className='sm:text-3xl text-2xl  font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4'>
+            <h1 className='sm:text-3xl text-2xl  font-medium title-font   lg:w-1/3 lg:mb-0 mb-4  text-blue-900'>
               наши продукты
             </h1>
-            <p className='lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, a
-              dicta fugit officia, debitis magni officiis inventore provident
-              facilis repellat reprehenderit dolor neque necessitatibus fuga
-              recusandae nostrum cum voluptatum vitae.
+            <p className='lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base  text-blue-900'>
+              Столовая, питьевая вода, высокой степени очистки. Не имеет
+              постороннего запаха, имеет мягкий, натуральный вкус. Легко утоляет
+              жажду и освежает. Duʼ̓a premium water — вода на каждый день.
             </p>
           </div>
           <div className='flex justify-center flex-wrap md:-m-2 -m-1'>

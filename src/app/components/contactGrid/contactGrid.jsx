@@ -8,6 +8,11 @@ const ContactGrid = () => {
         <h2 className='text-3xl mb-7 mt-5 text-center text-cyan-600 '>
           наши продукты
         </h2>
+        <p className='text-center text-cyan-600 max-w-lg mx-auto mb-5'>
+          Столовая, питьевая вода, высокой степени очистки. Не имеет
+          постороннего запаха, имеет мягкий, натуральный вкус. Легко утоляет
+          жажду и освежает. Duʼ̓a premium water — вода на каждый день.
+        </p>
         <div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
           <div className='grid gap-2 '>
             <div>
