@@ -5,15 +5,15 @@ const Cards = () => {
     <>
       <div className='grid-cols-1 sm:grid md:grid-cols-3 '>
         <div className='mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0'>
-          <a href='#!'>
+          <div style={{ height: "308px" }}>
             <Image
               width={500}
               height={500}
-              className='rounded-t-lg'
-              src='https://tecdn.b-cdn.net/img/new/standard/city/041.webp'
+              className='rounded-t-lg h-full'
+              src='/img/card1.jpg'
               alt='Hollywood Sign on The Hill'
             />
-          </a>
+          </div>
           <div className='p-6'>
             <h5 className='mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50'>
               Концентраты
@@ -29,15 +29,15 @@ const Cards = () => {
           </div>
         </div>
         <div className='mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0'>
-          <a href='#!'>
+          <div>
             <Image
               width={500}
               height={500}
               className='rounded-t-lg'
-              src='https://tecdn.b-cdn.net/img/new/standard/city/042.webp'
+              src='/img/card2.jpg'
               alt='Palm Springs Road'
             />
-          </a>
+          </div>
           <div className='p-6'>
             <h5 className='mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50'>
               Оборудование
@@ -52,17 +52,17 @@ const Cards = () => {
           </div>
         </div>
         <div className='mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0'>
-          <a href='#!'>
+          <div>
             <Image
               width={500}
               height={500}
               className='rounded-t-lg'
-              src='https://tecdn.b-cdn.net/img/new/standard/city/044.webp'
+              src='/img/card3.jpg'
               alt='Skyscrapers'
             />
-          </a>
+          </div>
           <div className='p-6'>
-            <h5 className='mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50'>
+            <h5 className='mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50 mt-1'>
               ПЭТ - преформы.
             </h5>
             <p className='mb-4 text-base text-neutral-600 dark:text-neutral-200'>

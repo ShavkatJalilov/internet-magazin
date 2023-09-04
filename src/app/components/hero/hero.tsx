@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const Hero = () => {
   return (
     <>
@@ -6,20 +7,22 @@ const Hero = () => {
         <div className='container'>
           <div className='flex flex-col lg:flex-row'>
             <div className='lg:w-1/3 lg:py-24'>
-              <h1 className='text-4xl lg:text-6xl font-bold mb-4'>
-                Desired Experiences
-              </h1>
+              <h1 className='text-4xl lg:text-6xl font-bold mb-4'>Dua</h1>
               <p className='text-lg lg:text-xl leading-relaxed mb-4'>
-                The time is now for it to be okay to be great. For being a
-                bright color. For standing out.
+                в Узбекистане Один из самых крупных заводов по производству Duʼ̓a
+                Premium water
               </p>
               <div className='buttons'>
-                <button className='btn bg-gradient-warning mt-4'>
-                  Discover
-                </button>
-                <button className='btn text-warning shadow-none mt-4'>
-                  Read more
-                </button>
+                <mark className='btn text-xl p-1  rounded-md text-red-600 mt-4'>
+                  у нас есть бесплатная доставка
+                </mark>
+                <Link
+                  target='_blank'
+                  href='https://t.me/duawater'
+                  className='text-indigo-500 block  mt-3   font-bold'
+                >
+                  заказать сейчас
+                </Link>
               </div>
             </div>
             <div className='lg:w-2/3 p-5 lg:ps-0'>

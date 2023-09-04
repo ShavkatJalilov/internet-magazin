@@ -43,7 +43,7 @@ const ContactMap = () => {
                 <h2 className='title-font font-semibold text-gray-900 tracking-widest text-xs mt-4'>
                   PHONE
                 </h2>
-                <Link href='tel:+998906989999'>+99890 698 99 99</Link>
+                <Link href='tel:+998991940101'>+99899 194 01 01</Link>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const ContactMap = () => {
                 }
               >
                 {""}
-                BELGILANMAGAN сум
+                2000 сум
               </span>{" "}
               <span
                 className={

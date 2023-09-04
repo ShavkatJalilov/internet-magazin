@@ -29,8 +29,8 @@ const Header = () => {
               height={110}
             />
           </Link>
-          <Link className='text-teal-500' href='tel:+998906989999'>
-            +99890 698 99 99
+          <Link className='text-teal-500' href='tel:+998991940101'>
+            +99899 194 01 01
           </Link>
 
           <nav className='md:ml-auto flex flex-wrap items-center text-base justify-center text-teal-500'>
@@ -90,6 +90,16 @@ const Header = () => {
               href='/pages/reklama'
             >
               Рекламные материалы
+            </Link>
+            <Link
+              className={
+                pathname == "/pages/Connection"
+                  ? "active"
+                  : "mr-5 hover:text-blue-700"
+              }
+              href='/pages/Connection'
+            >
+              контакт
             </Link>
           </nav>
           <div>
