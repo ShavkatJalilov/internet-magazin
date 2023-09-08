@@ -5,7 +5,10 @@ const Footer = () => {
   return (
     <>
       <hr />
-      <footer className='text-white-100 bg-blue-600 body-font'>
+      <footer
+        className='text-white-100 body-font'
+        style={{ background: "#1698A1" }}
+      >
         <div className='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
           <Link
             className='flex title-font font-medium items-center text-white mb-4 md:mb-0'
@@ -60,7 +63,7 @@ const Footer = () => {
             </Link>
             <Link
               target='_blank'
-              href='https://t.me/duawater'
+              href='https://t.me/duawater_bot'
               className='ml-3 text-white-400'
             >
               <svg height='46' width='46' viewBox='1  1 358 500'>

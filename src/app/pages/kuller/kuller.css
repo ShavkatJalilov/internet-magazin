@@ -1,0 +1,41 @@
+.kuller_img {
+  transition: 1s;
+  width: 25%;
+  max-width: 1000px;
+  min-width: 300px;
+}
+.box_img {
+  display: none;
+  border: none;
+  transition: 1s;
+}
+.kuller_img:hover {
+  width: 78%;
+  max-width: 1100px;
+  min-width: 300px;
+  box-shadow: 10px 5px 5px rgb(116, 116, 116);
+
+  transition: 0.6s;
+}
+.img {
+  width: 350px;
+  transition: 0.6s;
+  height: 300px;
+}
+.img:hover {
+  width: 380px;
+  height: 320px;
+  transition: 1s;
+  box-shadow: 10px 5px 5px red;
+  /* box-shadow: inset ; */
+}
+
+.box_img:hover {
+  transition: 1s;
+}
+
+.kuller_img:hover .box_img {
+  display: block;
+  width: 600px;
+  transition: 1s;
+}

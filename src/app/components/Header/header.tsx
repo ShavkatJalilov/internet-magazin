@@ -48,23 +48,22 @@ const Header = () => {
               <select
                 onChange={(e) => handlSelect(e.target.value)}
                 className={
-                  pathname == "/pages/Contact_water"
+                  pathname == "/pages/Contact_water" ||
+                  pathname == "/pages/Contacts" ||
+                  pathname == "/pages/kuller"
                     ? "active outline-0 mr-0"
                     : " hover:text-blue-700 'p-2 outline-0 rounded-lg bg-transparent mr-5 "
-                    ? pathname == "/pages/Contacts"
-                      ? "active outline-0  "
-                      : " hover:text-blue-700 'p-2 outline-0 rounded-lg bg-transparent   mr-5"
-                    : ""
                 }
               >
                 <option
                   className='bg-blue-500'
-                  value='/pages/Contact_water'
+                  defaultValue='/pages/Contact_water'
                   selected={
                     pathname == "/pages/Contact_water"
                       ? false
                       : true
-                      ? pathname == "/pages/Contacts"
+                      ? pathname == "/pages/Contacts" ||
+                        pathname == "/pages/kuller"
                         ? false
                         : true
                       : true
@@ -77,6 +76,9 @@ const Header = () => {
                 </option>
                 <option className='bg-blue-500' value='/pages/Contacts'>
                   200мл воды
+                </option>
+                <option className='bg-blue-500' value='/pages/kuller'>
+                  куллер
                 </option>
               </select>
             </div>

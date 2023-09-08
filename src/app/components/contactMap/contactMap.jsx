@@ -33,7 +33,7 @@ const ContactMap = () => {
               <div className='lg:w-1/2 px-6 mt-4 lg:mt-0'>
                 <Link
                   target='_blank'
-                  href='https://t.me/duawater'
+                  href='https://t.me/duawater_bot'
                   className='text-indigo-500 leading-relaxed'
                 >
                   <h2 className='title-font font-semibold text-indigo-500  tracking-widest text-xs'>
@@ -47,7 +47,12 @@ const ContactMap = () => {
               </div>
             </div>
           </div>
-          <div className='lg:w-1/3 md:w-1/2 bg-slate-50  flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0'>
+          <form
+            className='lg:w-1/3 md:w-1/2 bg-slate-50  flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0'
+            action='https://formsubmit.co/duawater@mail.ru'
+            method='POST'
+            autoComplete='off'
+          >
             <h2 className='text-gray-900 text-lg mb-1 font-medium title-font'>
               размещение заказа
             </h2>
@@ -109,11 +114,14 @@ const ContactMap = () => {
                 defaultValue={""}
               />
             </div>
-            <button className='text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+            <button
+              type='submit'
+              className='text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'
+            >
               отправлять
             </button>
             <p className='text-xs text-gray-500 mt-3'></p>
-          </div>
+          </form>
         </div>
       </section>
     </>

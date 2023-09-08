@@ -18,7 +18,7 @@ const Hero = () => {
                 </mark>
                 <Link
                   target='_blank'
-                  href='https://t.me/duawater'
+                  href='https://t.me/duawater_bot'
                   className='text-indigo-500 block  mt-3   font-bold'
                 >
                   заказать сейчас
