@@ -96,8 +96,8 @@ const ContactGrid = () => {
                 width={400}
                 height={350}
                 className='h-full max-w-full rounded-xl drop-shadow-xl transition duration-300 ease-in-out hover:scale-90'
-                src='/img/stakan1.jpg '
-                alt='foto'
+                src='/img/chashka.jpg'
+                alt=''
               />
             </div>
           </div>
