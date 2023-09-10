@@ -43,7 +43,9 @@
   display: block;
   max-width: 590px;
 }
-
+.imgMobil {
+  display: none;
+}
 @media screen and (max-width: 770px) {
   .button__kuller {
     max-width: 320px;
@@ -58,6 +60,12 @@
   }
   .kuller_img:hover .box_img {
     width: 400px;
+  }
+  .imgMobil {
+    display: block;
+  }
+  .imgDesktop {
+    display: none;
   }
 }
 

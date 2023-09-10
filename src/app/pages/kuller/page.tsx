@@ -62,6 +62,14 @@ const page = () => {
         </div>
 
         <div className='ml-auto  mr-16 kuller_img  flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row   mt-5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-4'>
+          <Image
+            className='img object-cover imgMobil   rounded  md:h-auto md:w-48 md:rounded-none md:rounded-l-lg'
+            src='/img/kuller3.jpg'
+            alt='foto logo'
+            // style={{ width: "auto", height: "auto" }}
+            width={310}
+            height={410}
+          />
           <div className='box_img flex ml-4 flex-col justify-between  leading-normal'>
             <span className='lg:flex'>
               <span className='box__kuller '>
@@ -110,7 +118,7 @@ const page = () => {
           </div>
 
           <Image
-            className='img object-cover    rounded  md:h-auto md:w-48 md:rounded-none md:rounded-l-lg'
+            className='img object-cover imgDesktop   rounded  md:h-auto md:w-48 md:rounded-none md:rounded-l-lg'
             src='/img/kuller3.jpg'
             alt='foto logo'
             // style={{ width: "auto", height: "auto" }}
