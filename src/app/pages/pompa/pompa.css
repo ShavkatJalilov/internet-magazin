@@ -1,0 +1,15 @@
+.imgs__popmp {
+  width: 384px;
+  height: 310px;
+  padding: 5px;
+}
+
+.pompa__box {
+  display: block;
+
+  /* transition: 1s; */
+}
+/* .cards__imgs:hover .pompa__box {
+  display: block;
+  transition: 1s;
+} */

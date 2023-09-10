@@ -50,7 +50,9 @@ const Header = () => {
                 className={
                   pathname == "/pages/Contact_water" ||
                   pathname == "/pages/Contacts" ||
-                  pathname == "/pages/kuller"
+                  pathname == "/pages/kuller" ||
+                  pathname == "/pages/pompa" ||
+                  pathname == "/pages/stakan"
                     ? "active outline-0 mr-0"
                     : " hover:text-blue-700 'p-2 outline-0 rounded-lg bg-transparent mr-5 "
                 }
@@ -63,7 +65,9 @@ const Header = () => {
                       ? false
                       : true
                       ? pathname == "/pages/Contacts" ||
-                        pathname == "/pages/kuller"
+                        pathname == "/pages/kuller" ||
+                        pathname == "/pages/pompa" ||
+                        pathname == "/pages/stakan"
                         ? false
                         : true
                       : true
@@ -79,6 +83,12 @@ const Header = () => {
                 </option>
                 <option className='bg-blue-500' value='/pages/kuller'>
                   куллер
+                </option>
+                <option className='bg-blue-500' value='/pages/pompa'>
+                  помпа
+                </option>
+                <option className='bg-blue-500' value='/pages/stakan'>
+                  стаканы
                 </option>
               </select>
             </div>
