@@ -56,10 +56,23 @@
     margin-top: 5px;
     padding: 10px;
   }
+  .kuller_img:hover .box_img {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 470px) {
   .button__kuller {
     max-width: 270px;
+  }
+  .box__kuller {
+    display: block;
+    max-width: 290px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .kuller_img:hover .box_img {
+    width: 370px;
   }
 }
