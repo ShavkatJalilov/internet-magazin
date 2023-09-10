@@ -20,7 +20,7 @@ const page = () => {
 
           <div className='box_img flex ml-4 flex-col justify-between leading-normal'>
             <span className='lg:flex'>
-              <span className=' '>
+              <span className='box__kuller'>
                 <h5 className='mb-1 text-xl font-bold text-gray-900 dark:text-white'>
                   ZIFFLER WD-1188DG
                 </h5>
@@ -35,7 +35,7 @@ const page = () => {
                 <span className='text-2xl block mt-2'>1 200 000 сум</span>
               </span>
 
-              <span className=' ml-2 '>
+              <span className='box__kuller ml-2 '>
                 <h5 className='mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white'>
                   ZIFFLER WD-1188DG
                 </h5>
@@ -54,11 +54,9 @@ const page = () => {
             <Link
               target='_blank'
               href='https://t.me/duawater_bot'
-              className='text-indigo-500 mt-2 text-lg md:w-1/2'
+              className='button__kuller  mt-2   p-5 rounded-full bg-blue-400 text-white text-center text-lg'
             >
-              <h2 className='p-5 rounded-full bg-blue-400 text-white text-center text-lg'>
-                заказать
-              </h2>
+              заказать
             </Link>
           </div>
         </div>

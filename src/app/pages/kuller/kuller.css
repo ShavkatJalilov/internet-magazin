@@ -39,3 +39,27 @@
   width: 600px;
   transition: 1s;
 }
+.button__kuller {
+  display: block;
+  max-width: 590px;
+}
+
+@media screen and (max-width: 770px) {
+  .button__kuller {
+    max-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .box__kuller {
+    display: block;
+    max-width: 490px;
+    margin-top: 5px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .button__kuller {
+    max-width: 270px;
+  }
+}
